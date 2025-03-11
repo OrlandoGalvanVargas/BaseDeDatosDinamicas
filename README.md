@@ -16,14 +16,13 @@ El formulario permite a los usuarios crear una base de datos dinámica en SQL Se
 ## Estructura del Proyecto
 El proyecto tiene la siguiente estructura de archivos:
 
-Pages/
-├── CreateDatabase.cshtml // Vista del formulario
-├── CreateDatabase.cshtml.cs // Lógica del formulario
-Shared/
-├── _ValidationScriptsPartial.cshtml // Scripts de validación
-appsettings.json // Configuración de la cadena de conexión
-Program.cs // Configuración de la aplicación
-
+* **Pages/**
+    * `CreateDatabase.cshtml` // Vista del formulario
+    * `CreateDatabase.cshtml.cs` // Lógica del formulario
+* **Shared/**
+    * `_ValidationScriptsPartial.cshtml` // Scripts de validación
+* `appsettings.json` // Configuración de la cadena de conexión
+* `Program.cs` // Configuración de la aplicación
 
 ---
 
